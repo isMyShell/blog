@@ -17,4 +17,5 @@ jobs:
      runs-on: ubuntu-latest
      steps:
        - name: run_deploy
-         run: npm run deploy
+         env:
+           BUILD_SCRIPT: npm run deploy
