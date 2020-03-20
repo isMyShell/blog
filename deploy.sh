@@ -16,7 +16,7 @@ git init
 git add -A
 git commit -m 'deploy'
 
-# 如果你想要部署到 https://<USERNAME>.github.io
+# 如果你想要部署到 chhttps://<USERNAME>.github.io
 # git push -f git@github.com:<USERNAME>/<USERNAME>.github.io.git master
 
 # 如果你想要部署到 https://<USERNAME>.github.io/<REPO>
