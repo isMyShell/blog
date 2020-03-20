@@ -22,7 +22,7 @@ jobs:
        - name: run_deploy
          uses: JamesIves/github-pages-deploy-action@master
          env:
-           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }
+           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
            BRANCH: gh-pages
            BUILD_SCRIPT: npm run deploy
            
