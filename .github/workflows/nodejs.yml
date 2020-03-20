@@ -17,5 +17,7 @@ jobs:
      runs-on: ubuntu-latest
      steps:
        - name: run_deploy
+         uses: JamesIves/github-pages-deploy-action@master
          env:
+           BRANCH: gh-pages
            BUILD_SCRIPT: npm run deploy
